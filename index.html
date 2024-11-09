@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #f67c0be3;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">E-learning</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#hero">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- Hero Section -->
+    <header id="hero" class="vh-100 d-flex align-items-center justify-content-center text-white" style="background: url(./Img/\ hero.jpg) no-repeat center center; background-size: cover;">
+        <div class="container d-flex align-items-center justify-content-center" style="height: 100%;">
+          <div class="bg-dark bg-opacity-25 p-4 rounded text-center" style="max-width: 600px;">
+            <h1 class="display-4" style="font-weight: 700; letter-spacing: 1px;">Bienvenido a E-learning</h1>
+            <p class="lead" style="font-weight: 700; letter-spacing: 1px;">Tu plataforma de aprendizaje en línea</p>
+          </div>
+        </div>
+      </header>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color: #00796b;">Servicios</h2>
+      <div class="row text-center">
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="service-box p-4 border rounded">
+            <i class="fas fa-laptop fa-3x mb-3" style="color: #ff9800;"></i>
+            <h3 style="color: #00796b;">Clases Interactivas</h3>
+            <p>Accede a clases interactivas para aprender a tu ritmo.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="service-box p-4 border rounded">
+            <i class="fas fa-chalkboard-teacher fa-3x mb-3" style="color:#ff9800;"></i>
+            <h3 style="color: #00796b;">Instructores Expertos</h3>
+            <p>Aprende de los mejores instructores en cada área.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="service-box p-4 border rounded">
+            <i class="fas fa-book fa-3x mb-3" style="color: #ff9800;"></i>
+            <h3 style="color: #00796b;">Material de Estudio</h3>
+            <p>Consulta material de estudio cuidadosamente seleccionado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5" style="color: #00796b;">Portafolio</h2>
+      <div class="row">
+        <div class="col-6 col-md-4 mb-4">
+          <img src="./Img/excel_analisis_datos.jpg" class="img-fluid" data-bs-toggle="modal" data-bs-target="#portfolioModal1" alt="Módulo de Introducción de Datos">
+        </div>
+        <div class="col-6 col-md-4 mb-4">
+          <img src="./Img/excel_formulas_funciones.jpg" class="img-fluid" data-bs-toggle="modal" data-bs-target="#portfolioModal2" alt="Módulo de Análisis de Datos">
+        </div>
+        <div class="col-6 col-md-4 mb-4">
+          <img src="./Img/excel_graficos.jpg" class="img-fluid" data-bs-toggle="modal" data-bs-target="#portfolioModal3" alt="Módulo de Fórmulas y Funciones">
+        </div>
+        <div class="col-6 col-md-4 mb-4">
+          <img src="./Img/excel_tablas.jpg" class="img-fluid" data-bs-toggle="modal" data-bs-target="#portfolioModal4" alt="Módulo de Tablas Dinámicas">
+        </div>
+        <div class="col-6 col-md-4 mb-4">
+          <img src="./Img/excel_visualziación.jpg" class="img-fluid" data-bs-toggle="modal" data-bs-target="#portfolioModal5" alt="Módulo de Gráficos">
+        </div>
+        <div class="col-6 col-md-4 mb-4">
+          <img src="./Img/excel_dinamicas.jpg" class="img-fluid" data-bs-toggle="modal" data-bs-target="#portfolioModal6" alt="Módulo de Macros">
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Contact Section -->
+   <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+            <h2 class="text-center mb-4" style="color: #00796b;">Contáctanos</h2>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre completo.</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo Electrónico.</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensaje.</label>
+              <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn w-100" style="background-color: #b4c4c2; color: white; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#45a1a1'" onmouseout="this.style.backgroundColor='#5ac9b8'">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-white text-center py-3" style="background-color: #f67c0be3;">
+    <p>&copy; 2024 E-learning. Todos los derechos reservados.</p>
+    <div>
+      <a href="#" class="text-white me-3" data-bs-toggle="tooltip" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="text-white me-3" data-bs-toggle="tooltip" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="text-white" data-bs-toggle="tooltip" title="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <!-- Modals for Portfolio -->
+  <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="portfolioModal1Label">Módulo de Introducción de Datos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./Img/excel_analisis_datos.jpg" class="img-fluid" alt="Módulo de Introducción de Datos">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="portfolioModal2Label">Módulo de Análisis de Datos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./Img/excel_formulas_funciones.jpg" class="img-fluid" alt="Módulo de Análisis de Datos">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="portfolioModal3Label">Módulo de Fórmulas y Funciones</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./Img/excel_graficos.jpg" class="img-fluid" alt="Módulo de Fórmulas y Funciones">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="portfolioModal4Label">Módulo de Tablas Dinámicas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./Img/excel_tablas.jpg" class="img-fluid" alt="Módulo de Tablas Dinámicas">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="portfolioModal5Label">Módulo de Gráficos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./Img/excel_visualziación.jpg" class="img-fluid" alt="Módulo de Gráficos">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="portfolioModal6Label">Módulo de Macros</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./Img/excel_dinamicas.jpg" class="img-fluid" alt="Módulo de Macros">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
